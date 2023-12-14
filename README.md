@@ -196,11 +196,11 @@ client1
 ```
 accept_request g1 b
 
-upload_file .../testTarget/csg.zip  g1
+upload_file ../testTarget/csg.zip  g1
 ```
 
 client2
 
 ```
-download_file g1 .../testTarget/csg.zip .../testDestination
+download_file g1 ../testTarget/csg.zip ../testDestination
 ```
