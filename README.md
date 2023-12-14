@@ -176,27 +176,34 @@ make
 
 client 1
 ##########
+```
 make clean
 make
 ./client 127.0.0.1:5040 tracker_info.txt
 create_user a a
 login a a
 create_group g1
-
+```
 
 client2
 ##########
+```
 ./client 127.0.0.1:5080 tracker_info.txt
 create_user b b
 login b b
 join_group g1
+```
 
 client1
 ##########
+```
 accept_request g1 b
 
 upload_file .../testTarget/csg.zip  g1
+```
 
 client2
 ##########
+```
 download_file g1 .../testTarget/csg.zip .../testDestination
+```
