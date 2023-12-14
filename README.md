@@ -168,10 +168,11 @@ stop_share ​<group_id> <file_name>
 ##Sample run
 
 tracker
+```
 make clean
 make
 ./tracker tracker_info.txt 1
-
+```
 
 client 1
 ```
